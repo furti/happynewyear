@@ -1,0 +1,101 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: verdana, Segoe UI Symbol;
+  color: #434c56;
+  height: 100%;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.happy {
+  margin: 0 0 20px 0;
+}
+.title {
+  font-size: 32px;
+}
+.year, .line {
+  display: flex;
+  flex-direction: row;
+}
+.digit {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.sign {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #1D6422;
+  opacity: 0;
+  transform: scale(0, 0);
+  transition: opacity 0.5s, transform 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.year.show .sign {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+/*Transitions*/
+
+.sign-0 {
+  transition-delay: 0s;
+}
+.sign-1 {
+  transition-delay: 0.1s;
+}
+.sign-2 {
+  transition-delay: 0.2s;
+}
+.sign-3 {
+  transition-delay: 0.3s;
+}
+.sign-4 {
+  transition-delay: 0.4s;
+}
+.sign-5 {
+  transition-delay: 0.5s;
+}
+.sign-6 {
+  transition-delay: 0.6s;
+}
+.sign-7 {
+  transition-delay: 0.7s;
+}
+.sign-8 {
+  transition-delay: 0.8s;
+}
+.sign-9 {
+  transition-delay: 0.9s;
+}
+.sign-10 {
+  transition-delay: 1s;
+}
+.sign-11 {
+  transition-delay: 1.1s;
+}
+.sign-12 {
+  transition-delay: 1.2s;
+}
+.sign-13 {
+  transition-delay: 1.3s;
+}
+.sign-14 {
+  transition-delay: 1.4s;
+}
+.sign-15 {
+  transition-delay: 1.5s;
+}
